@@ -113,7 +113,7 @@ public class ForgeConfigHandler {
 		public int betterSVMinDist = 512;
 
 		@Config.Comment({
-				"How far around a snow village's center, in blocks, must also be an allowed biome",
+				"Radius in blocks around a snow village's center that must also be allowed biomes",
 				"0 only checks the center, same as Ice and Fire"
 		})
 		@Config.Name("Better Snow Village Biome Check Radius")
